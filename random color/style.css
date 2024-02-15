@@ -1,0 +1,42 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    transition: 3s;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(60deg,rgb(245, 126, 126),rgb(139, 62, 3),rgb(39, 237, 39)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+   
+   
+}
+#center{
+width: 200px;
+height: 120px;
+background-color: rgb(8, 8, 8);
+/* display: flex;
+justify-content: center;
+align-items: center; */
+text-align: center;
+
+}
+#button{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 0px;
+    background:linear-gradient(45deg,red,green,rgb(226, 6, 233), pink,blue,black); 
+}
+
+#name{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
